@@ -1,0 +1,33 @@
+{
+  "name": "guiado-gulp",
+  "version": "1.0.0",
+  "description": "Ejercicio guiado de Gulp",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GlisseLisbeth/gulp-guiado.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "Gulp",
+    "Task",
+    "Runner"
+  ],
+  "author": "Glisse Lisbeth Jorge Malca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GlisseLisbeth/gulp-guiado/issues"
+  },
+  "homepage": "https://github.com/GlisseLisbeth/gulp-guiado#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0"
+  }
+}
